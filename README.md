@@ -181,15 +181,6 @@ cd tinnitus_dissolves
 - [ ] クラウド同期機能
 - [ ] 多言語対応
 
-## 📞 サポート・お問い合わせ
-
-### 開発者情報
-- **会社名**: SAKAI SOKURYO JIMUSHO, K.K.
-- **メール**: jieyingzhi60@gmail.com
-- **サポートメール**: master@miminari2023.com
-- **電話**: +81 90-3420-8355
-- **住所**: 〒221-0834 神奈川県横浜市神奈川区大口町13-20 CASA BLANCA BLDG. 701
-
 ### Google Play
 [📱 Google Playでダウンロード](https://play.google.com/store/apps/details?id=tinnitus.dissolves.app)
 
