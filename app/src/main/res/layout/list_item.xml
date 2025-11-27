@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/item_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="music title"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/item_button_pan"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="LR"
+            android:textColor="@color/item_gray"
+            app:backgroundTint="@android:color/white"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/item_gray"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/item_text_pan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="0.0"
+            android:textColor="@color/item_gray"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/item_text_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/item_seek_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:max="100"
+        android:thumb="@drawable/thumb_image" />
+
+
+</LinearLayout>

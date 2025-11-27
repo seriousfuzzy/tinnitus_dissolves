@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "754480718123",
+    "project_id": "tinnitus-dissolves-a18eb",
+    "storage_bucket": "tinnitus-dissolves-a18eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754480718123:android:91ebf2e39c1677a737e56e",
+        "android_client_info": {
+          "package_name": "tinnitus.dissolves.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD98Wbj7pg9qerpxS5eN2xaIW2wMa8780E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
